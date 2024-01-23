@@ -15,6 +15,13 @@
         * {
             font-family: 'Manrope', sans-serif;
         }
+        @media screen and (max-width:576px) {
+            .custom-flex{
+                display: flex;
+                flex-direction: column;
+                padding: 16px;
+            }            
+        }
     </style>
 </head>
 
@@ -52,7 +59,7 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <img class="mr-2 lg:mr-6" src="images/seachFrame.png">
+                <img class="mr-2 lg:mr-6" src="./Images/seachFrame.png">
                 <a class="btn  text-white" style="background-color: #FF4240; border-radius: 8px;">Get Ticket</a>
             </div>
         </div>
@@ -156,13 +163,15 @@
     </div>
     <div class="program-section">
         <div class="text">
-            <h1 class="flex justify-center mb-4 lg:mb-6 text-[22px] lg:text-4xl text-[#131318] font-extrabold">Program Sections</h1>
+            <h1 class="flex justify-center mb-4 lg:mb-6 text-[22px] lg:text-4xl text-[#131318] font-extrabold">Program
+                Sections</h1>
             <p class=" flex justify-center text-[#13131899] text-sm lg:text-base mb-8 lg:mb-16 ml-[2vw] text-center">
-                Dedicated to the pursuit of excellence, our hockey club unites skilled players under the guidance of a <br>
+                Dedicated to the pursuit of excellence, our hockey club unites skilled players under the guidance of a
+                <br>
                 seasoned coach. Together, we train rigorously on the ice, fostering teamwork and determination for
                 shared triumphs.</p>
         </div>
-        <div class="flex justify-center mb-36">
+        <div class="flex justify-center mb-16">
             <div class="grid lg:grid-cols-2 gap-6 lg:gap-10">
                 <div
                     class="w-[95vw] lg:w-[auto] bg-cover bg-no-repeat bg-center bg-[linear-gradient(110deg,rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(./Images/2.png)] rounded-3xl">
@@ -189,6 +198,195 @@
                         your game to new heights.</p>
                     <a class="btn  text-white mt-3 ml-12 mb-10"
                         style="background-color: #FF4240; border-radius: 8px; border:0;">Get Ticket</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <hr class="mt-10 lg:mt-24 w-[81.25%] mb-8 bg-[#13131833]">
+    </div>
+    <div class="new-products">
+        <div class="text">
+            <h1 class="flex justify-center mb-4 lg:mb-6 text-[22px] lg:text-4xl text-[#131318] font-extrabold">Our New
+                Products</h1>
+            <div class="flex justify-center">
+                <p class="w-[607px] text-[#13131899] text-sm lg:text-base ml-[2vw] text-center">
+                    Explore our latest hockey shop arrivals! Cutting-edge gear, stylish apparel,
+                    and innovative accessories for players of all levels. Elevate your game today.</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <hr class="mt-4 lg:mt-12 w-[81.25%] mb-8 bg-[#13131833]">
+        </div>
+        <div class="flex justify-center mb-16">
+            <div class="products grid lg:grid-cols-2 gap-8">
+                <div class="lg:flex items-center gap-x-5 custom-flex">
+                    <div class="img-cont">
+                        <img src="./Images/5.png">
+                    </div>
+                    <div>
+                        <div class="top flex gap-x-2">
+                            <img class="h-6 w-6" src="./Images/star.png">
+                            <h4 class="text-[#13131880]">5.0</h4>
+                            <img class="h-6 w-6" src="./Images/viewers.png">
+                            <h4 class="text-[#13131880]">20</h4>
+                            <img class="h-6 w-6" src="./Images/heart.png">
+                            <h4 class="text-[#13131880]">200</h4>
+                        </div>
+                        <div class="middle">
+                            <h2 class="text-xl text-[#131318] font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-[#13131880] w-auto lg:w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        </div>
+                        <div class="bottom flex gap-x-6">
+                            <div>
+                                <h4 class="text-[#FF4240] font-extrabold">Price - $200</h4>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img class="h-6 w-6" src="./Images/cart.png">
+                                <p class="text-[#13131880]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex items-center gap-x-5 custom-flex">
+                    <div class="img-cont">
+                        <img src="./Images/6.png">
+                    </div>
+                    <div>
+                        <div class="top flex gap-x-2">
+                            <img class="h-6 w-6" src="./Images/star.png">
+                            <h4 class="text-[#13131880]">5.0</h4>
+                            <img class="h-6 w-6" src="./Images/viewers.png">
+                            <h4 class="text-[#13131880]">20</h4>
+                            <img class="h-6 w-6" src="./Images/heart.png">
+                            <h4 class="text-[#13131880]">200</h4>
+                        </div>
+                        <div class="middle">
+                            <h2 class="text-xl text-[#131318] font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-[#13131880] w-auto lg:w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        </div>
+                        <div class="bottom flex gap-x-6">
+                            <div>
+                                <h4 class="text-[#FF4240] font-extrabold">Price - $200</h4>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img class="h-6 w-6" src="./Images/cart.png">
+                                <p class="text-[#13131880]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex items-center gap-x-5 custom-flex">
+                    <div class="img-cont">
+                        <img src="./Images/7.png">
+                    </div>
+                    <div>
+                        <div class="top flex gap-x-2">
+                            <img class="h-6 w-6" src="./Images/star.png">
+                            <h4 class="text-[#13131880]">5.0</h4>
+                            <img class="h-6 w-6" src="./Images/viewers.png">
+                            <h4 class="text-[#13131880]">20</h4>
+                            <img class="h-6 w-6" src="./Images/heart.png">
+                            <h4 class="text-[#13131880]">200</h4>
+                        </div>
+                        <div class="middle">
+                            <h2 class="text-xl text-[#131318] font-extrabold">Cap For Hockeys</h2>
+                            <p class="text-[#13131880] w-auto lg:w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        </div>
+                        <div class="bottom flex gap-x-6">
+                            <div>
+                                <h4 class="text-[#FF4240] font-extrabold">Price - $200</h4>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img class="h-6 w-6" src="./Images/cart.png">
+                                <p class="text-[#13131880]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex items-center gap-x-5 custom-flex">
+                    <div class="img-cont">
+                        <img src="./Images/8.png">
+                    </div>
+                    <div>
+                        <div class="top flex gap-x-2">
+                            <img class="h-6 w-6" src="./Images/star.png">
+                            <h4 class="text-[#13131880]">5.0</h4>
+                            <img class="h-6 w-6" src="./Images/viewers.png">
+                            <h4 class="text-[#13131880]">20</h4>
+                            <img class="h-6 w-6" src="./Images/heart.png">
+                            <h4 class="text-[#13131880]">200</h4>
+                        </div>
+                        <div class="middle">
+                            <h2 class="text-xl text-[#131318] font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-[#13131880] w-auto lg:w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        </div>
+                        <div class="bottom flex gap-x-6">
+                            <div>
+                                <h4 class="text-[#FF4240] font-extrabold">Price - $200</h4>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img class="h-6 w-6" src="./Images/cart.png">
+                                <p class="text-[#13131880]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex items-center gap-x-5 custom-flex">
+                    <div class="img-cont">
+                        <img src="./Images/9.png">
+                    </div>
+                    <div>
+                        <div class="top flex gap-x-2">
+                            <img class="h-6 w-6" src="./Images/star.png">
+                            <h4 class="text-[#13131880]">5.0</h4>
+                            <img class="h-6 w-6" src="./Images/viewers.png">
+                            <h4 class="text-[#13131880]">20</h4>
+                            <img class="h-6 w-6" src="./Images/heart.png">
+                            <h4 class="text-[#13131880]">200</h4>
+                        </div>
+                        <div class="middle">
+                            <h2 class="text-xl text-[#131318] font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-[#13131880] w-auto lg:w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        </div>
+                        <div class="bottom flex gap-x-6">
+                            <div>
+                                <h4 class="text-[#FF4240] font-extrabold">Price - $200</h4>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img class="h-6 w-6" src="./Images/cart.png">
+                                <p class="text-[#13131880]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex items-center gap-x-5 custom-flex">
+                    <div class="img-cont">
+                        <img src="./Images/10.png">
+                    </div>
+                    <div>
+                        <div class="top flex gap-x-2">
+                            <img class="h-6 w-6" src="./Images/star.png">
+                            <h4 class="text-[#13131880]">5.0</h4>
+                            <img class="h-6 w-6" src="./Images/viewers.png">
+                            <h4 class="text-[#13131880]">20</h4>
+                            <img class="h-6 w-6" src="./Images/heart.png">
+                            <h4 class="text-[#13131880]">200</h4>
+                        </div>
+                        <div class="middle">
+                            <h2 class="text-xl text-[#131318] font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-[#13131880] w-auto lg:w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        </div>
+                        <div class="bottom flex gap-x-6">
+                            <div>
+                                <h4 class="text-[#FF4240] font-extrabold">Price - $200</h4>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img class="h-6 w-6" src="./Images/cart.png">
+                                <p class="text-[#13131880]">Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
