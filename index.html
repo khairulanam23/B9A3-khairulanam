@@ -31,7 +31,7 @@
             background: rgba(19, 19, 24, 0.03);
         }
 
-        input::placeholder{
+        input::placeholder {
             color: rgba(19, 19, 24, 0.30);
             text-align: center;
         }
@@ -46,6 +46,14 @@
             .int-type {
                 width: 85vw;
                 height: 64px;
+            }
+
+            .C1st {
+                text-align: center;
+            }
+            .box{
+                display: flex;
+                justify-content: center;
             }
         }
     </style>
@@ -442,7 +450,8 @@
             <div class="grid lg:grid-cols-2 gap-y-6">
                 <!-- information part -->
                 <div class="grid grid-rows-3 gap-y-4 mt-12 ml-6 lg:mt-0">
-                    <div class="bg-[#BCED6D1A]  rounded-2xl w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] grid grid-rows-2 p-10">
+                    <div
+                        class="bg-[#BCED6D1A]  rounded-2xl w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] grid grid-rows-2 p-10">
                         <div>
                             <img src="./Images/Group 1171275317.png">
                         </div>
@@ -451,7 +460,8 @@
                             <p class="text-[#131318] font-extrabold text-lg">(+62) 123-321-543</p>
                         </div>
                     </div>
-                    <div class="bg-[#BCED6D1A]  rounded-2xl w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] grid grid-rows-2 p-8">
+                    <div
+                        class="bg-[#BCED6D1A]  rounded-2xl w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] grid grid-rows-2 p-8">
                         <div>
                             <img src="./Images/Group 1171275318.png">
                         </div>
@@ -460,7 +470,8 @@
                             <p class="text-[#131318] font-extrabold text-lg">hockeys@support.com</p>
                         </div>
                     </div>
-                    <div class="bg-[#BCED6D1A]  rounded-2xl w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] grid grid-rows-2 p-8">
+                    <div
+                        class="bg-[#BCED6D1A]  rounded-2xl w-[287px] h-[184px] lg:w-[374px] lg:h-[216px] grid grid-rows-2 p-8">
                         <div>
                             <img src="./Images/Group 1171275321.png">
                         </div>
@@ -497,12 +508,74 @@
                         <input type="text" placeholder="Write your message">
                     </div>
                     <div>
-                        <button class="btn text-white bg-[#FF4240] w-[320px] lg:w-[540px] lg:my-12">Send Message</button>
+                        <button class="btn text-white bg-[#FF4240] w-[320px] lg:w-[540px] lg:my-12">Send
+                            Message</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="media lg:mt-20">
+        <h2 class="text-[#131318] text-2xl font-extrabold text-center">Social Media</h2>
+    </div>
+    <div class="flex justify-center my-8">
+        <img src="./Images/Social.png">
+    </div>
+    <footer class="bg-[#131318] grid lg:grid-cols-6 p-5 lg:py-[100px] lg:px-[130px]">
+        <div class="C1st col-span-2">
+            <h1 class="text-white text-3xl font-extrabold mb-3">Get In Touch</h1>
+            <p class="text-[#FFFFFFCC] lg:w-[346px] mb-3">
+                Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                proin.
+            </p>
+            <div class="box flex gap-x-2 mb-3">
+                <img src="./Images/mail.png">
+                <p class="text-[#FFFFFFCC]">
+                    hockeys@support.com
+                </p>
+            </div>
+            <div class=" box flex gap-x-2 mb-3">
+                <img src="./Images/call.png">
+                <p class="text-[#FFFFFFCC]">
+                    (+62) 123-321-543
+                </p>
+            </div>
+        </div>
+        <div class="ghabla col-span-2 flex justify-between">
+            <div class="C2nd">
+                <h1 class="text-white text-xl lg:text-3xl font-extrabold lg:mb-3 pt-3">Company</h1>
+                <ul class="list-none text-[#FFFFFF99]">
+                    <li>About Us</li>
+                    <li>Leadership</li>
+                    <li>Careers</li>
+                    <li>News & Article</li>
+                    <li>Legal Notice</li>
+                </ul>
+            </div>
+            <div class="C3rd">
+                <h1 class="text-white text-xl lg:text-3xl font-extrabold lg:mb-3 pt-3">Support</h1>
+                <ul class="list-none text-[#FFFFFF99]">
+                    <li>Help Center</li>
+                    <li>FAQ</li>
+                    <li>Ticket Support</li>
+                    <li>Contact US</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <div class="C4th">
+            <h1 class="text-white text-xl lg:text-3xl font-extrabold lg:mb-3 pt-3">Services</h1>
+            <ul class="list-none text-[#FFFFFF99]">
+                <li>Academy</li>
+                <li>Group Lesson</li>
+                <li>Private Lesson</li>
+                <li>Hockey for Kids</li>
+                <li>Hockey for Adults</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
